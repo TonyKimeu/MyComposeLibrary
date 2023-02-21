@@ -20,15 +20,13 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyComposeLibraryTheme {
                 // A surface container using the 'background' color from the theme
-//                Surface(
-//                    modifier = Modifier.fillMaxSize(),
-//                    color = MaterialTheme.colors.background
-//                ) {
-//                    Greeting("Android")
-//                }
-                Box(modifier = Modifier.fillMaxSize()) {
-                    ImagePreview(image = )
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colors.background
+                ) {
+                    Greeting("Android")
                 }
+
             }
         }
     }
